@@ -8,6 +8,6 @@ def using_unshift (array, string)
   #@new_neighborhood = "Brooklyn Heights"
 end
 
-def using_pop (array, string)
+def using_pop (array)
   array.pop(string)
 end
