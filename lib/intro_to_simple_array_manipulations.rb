@@ -32,3 +32,7 @@ def using_concat (array1, array2)
       #@all_my_favs = @my_favorite_things.concat(more_favs)
       #end
 end
+
+def using_insert (array, element)
+  array.insert(4, element)
+end
