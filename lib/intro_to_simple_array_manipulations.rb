@@ -42,4 +42,5 @@ def using_uniq (array)
 end
 
 def using_delete_at (array, integer)
-  
+   deleted_element = array.delete(integer)
+end 
