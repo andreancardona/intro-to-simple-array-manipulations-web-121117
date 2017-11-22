@@ -41,6 +41,12 @@ def using_uniq (array)
   array = array.uniq
 end
 
+def using_flatten(array)
+  flat_array = array.flatten
+end
+
+
+
 def using_delete_at (array, integer)
    deleted_element = array.delete(integer)
 end 
